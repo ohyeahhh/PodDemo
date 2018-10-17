@@ -1,0 +1,22 @@
+{
+  "name": "PodDemo",
+  "version": "0.1.0",
+  "summary": "尝试新建一个公共的Pod.",
+  "description": "一个简单的类用来新建一个公共的Pod。",
+  "homepage": "https://github.com/ohyeahhh/PodDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ohyeahhh": "ohyeahmisoh@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ohyeahhh/PodDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PodDemo/Classes/**/*"
+}
