@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OYPodDemo'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '尝试新建一个公共的Pod.'
 
 # This description is used to generate tags and improve search results.
