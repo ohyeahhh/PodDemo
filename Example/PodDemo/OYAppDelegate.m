@@ -7,12 +7,13 @@
 //
 
 #import "OYAppDelegate.h"
-
+#import "StaticLibPodDemo.h"
 @implementation OYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
     return YES;
 }
 

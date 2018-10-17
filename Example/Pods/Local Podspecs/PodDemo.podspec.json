@@ -1,5 +1,5 @@
 {
-  "name": "PodDemo",
+  "name": "OYPodDemo",
   "version": "0.1.0",
   "summary": "尝试新建一个公共的Pod.",
   "description": "一个简单的类用来新建一个公共的Pod。",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/ohyeahhh/PodDemo.git",
-    "tag": "0.1.0"
+    "tag": "v0.1.0"
   },
   "platforms": {
     "ios": "8.0"

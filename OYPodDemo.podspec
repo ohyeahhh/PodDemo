@@ -30,13 +30,13 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'PodDemo/Classes/**/*.m'
+  s.source_files = 'PodDemo/Classes/**/*'
   
   # s.resource_bundles = {
   #   'PodDemo' => ['PodDemo/Assets/*.png']
   # }
 
-   s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'PodDemo/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
