@@ -1,0 +1,6 @@
+framework module StaticLibraryToFrameworkDemo {
+  umbrella header "StaticLibraryToFrameworkDemo.h"
+
+  export *
+  module * { export * }
+}
