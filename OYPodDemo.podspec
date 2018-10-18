@@ -25,17 +25,18 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ohyeahhh' => 'ohyeahmisoh@gmail.com' }
-  s.source           = { :git => 'https://github.com/ohyeahhh/PodDemo.git', :tag => "v#{s.version.to_s}" }
+  s.source           = { :git => 'https://github.com/ohyeahhh/PodDemo.git', :tag => "v#{s.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'PodDemo/Classes/**/*'
-  # s.resource_bundles = {
-  #   'PodDemo' => ['PodDemo/Assets/*.png']
-  # }
-
-  s.public_header_files = 'PodDemo/Classes/*.h'
+  s.source_files = ['PodDemo/Classes/**/*.{m,h}']
+  s.vendored_libraries  = ['PodDemo/StaticLibrary/StaticFrameworkDemo.a']
+  s.vendored_frameworks = ['PodDemo/StaticFramework/StaticLibraryToFrameworkDemo.framework']
+  s.public_header_files = ['PodDemo/Classes/*.h']
+  # s.source_files = 'PodDemo/Classes/**/*.{m,h}','PodDemo/StaticLibrary/*.h','PodDemo/StaticFramework/StaticLibraryToFrameworkDemo.framework/Headers/*.h'
+  # s.vendored_libraries  = ['PodDemo/StaticLibrary/*.a','PodDemo/StaticFramework/StaticLibraryToFrameworkDemo.framework']
+ 
+  s.requires_arc = true
+  # s.public_header_files = ['PodDemo/Classes/*.h','PodDemo/StaticLibrary/*.h','PodDemo/StaticFramework/StaticLibraryToFrameworkDemo.framework/Headers/*.h']
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

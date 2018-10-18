@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "StaticLibPodDemo.h"
+//#import "StaticFrameworkDemo.h"
+#import <StaticLibraryToFrameworkDemo/StaticLibraryToFrameworkDemo.h>
 @interface ViewController ()
 
 @end
@@ -18,6 +20,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [StaticLibPodDemo saySomething];
+//    [StaticFrameworkDemo somethingIWantToSay];
+    [Util saySomething];
 }
 
 
