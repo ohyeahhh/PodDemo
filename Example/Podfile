@@ -3,6 +3,6 @@ platform :ios ,'9.0'
 
 target 'Example' do
   pod 'OYPodDemo', :path => '../'
-  pod 'Masonry'
+
 
 end

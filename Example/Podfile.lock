@@ -1,23 +1,16 @@
 PODS:
-  - Masonry (1.1.0)
-  - OYPodDemo (0.1.1)
+  - OYPodDemo (1.0.0)
 
 DEPENDENCIES:
-  - Masonry
   - OYPodDemo (from `../`)
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - Masonry
 
 EXTERNAL SOURCES:
   OYPodDemo:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  OYPodDemo: da17be693a5c0214c5ed218527f7b606de952649
+  OYPodDemo: 31154f3a077b121c961fa56473ab8c08415241ef
 
-PODFILE CHECKSUM: 723f6e575892a59f596185e35f59aedd81ecf0a9
+PODFILE CHECKSUM: 99b945f83f322beacd4d32209cd963c9c59a16c3
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.0.beta.1

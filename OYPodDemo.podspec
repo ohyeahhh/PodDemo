@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OYPodDemo'
-  s.version          = '0.1.2'
+  s.version          = '1.0.0'
   s.summary          = '尝试新建一个公共的Pod.'
 
 # This description is used to generate tags and improve search results.
@@ -25,11 +25,11 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ohyeahhh' => 'ohyeahmisoh@gmail.com' }
-  s.source           = { :git => 'https://github.com/ohyeahhh/PodDemo.git', :tag => "v#{s.version}" }
+  s.source           = { :git => 'https://github.com/ohyeahhh/PodDemo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '8.0'
   s.source_files = ['PodDemo/Classes/**/*.{m,h}']
-  s.vendored_libraries  = ['PodDemo/StaticLibrary/StaticFrameworkDemo.a']
+  # s.vendored_libraries  = ['PodDemo/StaticLibrary/StaticFrameworkDemo.a']
   s.vendored_frameworks = ['PodDemo/StaticFramework/StaticLibraryToFrameworkDemo.framework']
   s.public_header_files = ['PodDemo/Classes/*.h']
   # s.source_files = 'PodDemo/Classes/**/*.{m,h}','PodDemo/StaticLibrary/*.h','PodDemo/StaticFramework/StaticLibraryToFrameworkDemo.framework/Headers/*.h'
